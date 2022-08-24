@@ -1,0 +1,155 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #010101;
+    --text: #ffffff;
+    --subtext: #8f8f8f;
+    --linktext: #66ffb3;
+    --underline: #444444;
+    --sectionbg: #1c1c1e;
+    --buttoncolor: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #ffffff;
+    --text: #ffffff;
+    --subtext: #8f8f8f;
+    --linktext: #66ffb3;
+    --underline: #208000;
+    --sectionbg: #ffffff;
+    --buttoncolor: #ffffff;
+  }
+}
+
+body {
+  font-family: "Helvetica";
+  background-color: var(--bg);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  padding-left: 20px;
+}
+
+.header {
+  margin: 10px 0;
+  color:#ffffff;
+}
+
+.header__avatar {
+  border-radius: 30%;
+  font-size: 10px;
+  padding-right: 
+}
+
+.header__title {
+  padding-left: 0px;
+  margin: 30px 0 20px 0;
+  font-size: 32px;
+  line-height: 1.2;
+  font-family: "Georgia, serif";
+}
+
+.header__subtitle {
+  color: var(--subtext);
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.links {
+  width: 320px;
+  margin-bottom: 40px;
+}
+
+.links__header {
+  font-family: "Georgia, serif";
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+  color:#ffffff;
+}
+
+.links__link,
+.links__title {
+  font-size: 14px;
+  font-size: 1.4;
+  padding-right: 0px;
+}
+
+.links__link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 0px 10px;
+  gap: 30px;
+  border-bottom: 1px solid var(--underline);
+  width: 280px;
+}
+
+.links__link:last-child {
+  border-bottom: none;
+}
+
+.linsk__link,
+.links__link:visited {
+  text-decoration: none;
+  color: var(--linktext);
+}
+
+.links__title {
+  margin: 0;
+  min-width: 100px;
+}
+
+footer {
+  margin: 0 0 40px 0;
+}
+.button-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 320px;
+  background: var(--linktext);
+  background-color: #0000FF; 
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  color: var("#aa00ff");
+  text-decoration: none;
+}
+.c-button:hover {
+  background: #1d49aa;
+}
+
+.c-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+}
+button {
+  border: none;
+  background: #3a7999;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease; 
+}
+
+button:hover {
+  background: rgba(0,0,0,0);
+  color: #3a7999;
+  box-shadow: inset 0 0 0 3px #3a7999;
+}
