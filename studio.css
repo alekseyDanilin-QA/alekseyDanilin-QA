@@ -1,24 +1,24 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #010101;
-    --text: #ffffff;
+    --text: #000000;
     --subtext: #8f8f8f;
     --linktext: #66ffb3;
     --underline: #444444;
     --sectionbg: #1c1c1e;
-    --buttoncolor: #ffffff;
+    --buttoncolor: #000000;
   }
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg: #ffffff;
-    --text: #ffffff;
+    --bg: #000000;
+    --text: #000000;
     --subtext: #8f8f8f;
     --linktext: #66ffb3;
     --underline: #208000;
-    --sectionbg: #ffffff;
-    --buttoncolor: #ffffff;
+    --sectionbg: #000000;
+    --buttoncolor: #000000;
   }
 }
 
@@ -35,7 +35,7 @@ body {
 
 .header {
   margin: 10px 0;
-  color:#ffffff;
+  color:#000000;
 }
 
 .header__avatar {
@@ -69,7 +69,7 @@ body {
   font-size: 24px;
   line-height: 1.4;
   margin: 0 0 15px 0;
-  color:#ffffff;
+  color:#000000;
 }
 
 .links__link,
